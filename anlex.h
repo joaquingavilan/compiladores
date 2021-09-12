@@ -7,6 +7,17 @@
 /************* Definiciones ********************/
 
 //Codigos
+#define L_CORCHETE 			1
+#define R_CORCHETE			2
+#define L_LLAVE				3
+#define R_LLAVE				4
+#define COMA				5
+#define DOS_PUNTOS			6
+#define LITERAL_CADENA		7
+#define LITERAL_NUM			8
+#define PR_TRUE				9	
+#define PR_FALSE			10
+#define PR_NULL				11
 #define PROGRAM		256
 #define TYPE		257
 #define VAR			258
