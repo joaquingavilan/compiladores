@@ -49,7 +49,7 @@ int siguiente_primo(int n)
 	return n;
 }
 
-//en caso de que la tabla llegue al limite, duplicar el tamaño
+//en caso de que la tabla llegue al limite, duplicar el tamaÃ±o
 void rehash()
 {
 	entrada *vieja;
@@ -106,6 +106,7 @@ void insertTablaSimbolos(const char *s, int n)
 
 void initTablaSimbolos()
 {
+	//Eliminamos la esta seccion, porque no es necesario las palabras reservadas
 	//Tokens validos para el lenguaje JSON
 	insertTablaSimbolos("]",L_CORCHETE);
 	insertTablaSimbolos("[", R_CORCHETE);
@@ -116,5 +117,4 @@ void initTablaSimbolos()
 	insertTablaSimbolos("true", PR_TRUE );
 	insertTablaSimbolos("false",PR_FALSE );
 	insertTablaSimbolos("null",PR_NULL );
-}
 }
