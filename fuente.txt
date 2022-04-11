@@ -1,0 +1,27 @@
+{  
+   "personas":[  
+      {  
+         "ci":4399355,
+         "nombre":"Jose Rosa",
+         "casado":false,
+         "hijos":[  
+
+         ]
+      },
+      {  
+         "ci":636117,
+         "nombre":"Raul Ocampos",
+         "casado":true,
+         "hijos":[  
+            {  
+               "nombre":"Julia",
+               "edad":31
+            },
+            {  
+               "nombre":"Mara",
+               "edad":26
+            }
+         ]
+      }
+   ]
+}
