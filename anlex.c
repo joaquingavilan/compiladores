@@ -1,16 +1,11 @@
-/*
- *	Analizador Léxico	
+
+ *	Analizador Lï¿½xico	
  *	Curso: Compiladores y Lenguajes de Bajo de Nivel
- *	Práctica de Programación Nro. 1
- *	
- *	Descripcion:
- *	Implementa un analizador léxico que reconoce números, identificadores, 
- * 	palabras reservadas, operadores y signos de puntuación para un lenguaje
- * 	con sintaxis tipo Pascal.
+ *	Prï¿½ctica de Programaciï¿½n Nro. 1
  *	
  */
 
-/*********** Inclusión de cabecera **************/
+/*********** Inclusiï¿½n de cabecera **************/
 #include "anlex.h"
 
 
@@ -420,4 +415,3 @@ int main(int argc,char* args[])
 
 	return 0;
 }
-		
